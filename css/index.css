@@ -1,0 +1,370 @@
+html,body{
+    height:100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+/* 第一页 */
+#page1{
+    position:relative;
+    background:rgb(252, 249, 249) center center no-repeat;
+}
+#page1>img{
+    position:absolute;
+}
+.two{
+  width:3.99rem;
+  height:7.215rem;
+  top:0rem;
+  right:50%;
+  margin-right:-2rem;
+}
+.geren{
+  width:6.45rem;
+  height:1.443rem;
+  top:8rem;
+  right:50%;
+  margin-right: -3.2rem;
+}
+.dianhua{
+  width:0.423rem;
+  height:0.423rem;
+  bottom:1.5rem;
+  left:0.72rem;
+ 
+}
+.dizhi{
+  width:0.4005rem;
+  height:0.47rem;
+  bottom:1.5rem;
+  right:50%;
+  margin-right:-0.2rem;
+}
+.qq{
+  width:0.4095rem;
+  height:0.4725rem;
+  bottom:1.5rem;
+  right:0.7rem;
+}
+.dz{
+  width:1.881rem;
+  height:0.2907rem;
+  bottom:0.8rem;
+  left:50%;
+  margin-left: -0.96rem;
+}
+.dh{
+  width:1.539rem;
+  height:0.2394rem;
+  bottom:0.8rem;
+  left:0.3rem;
+  
+}
+.q{
+  width:1.5498rem;
+  height:0.2394rem;
+  bottom:0.8rem;
+  right:0.3rem; 
+}
+#next{
+    width:0.5rem;
+    height: 0.4rem;
+    background: url("../images/arrow.png") center center no-repeat;
+    bottom:0.2rem;
+    top:auto;
+    left:50%;
+    margin-left:-0.25rem;
+    background-size:cover;
+    animation: fadeInUp 1s linear infinite;
+
+}
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  /* 第二页 */
+  #page2{
+    position:relative;
+    background:rgb(252, 249, 249) center center no-repeat;
+}
+#page2>img{
+    position:absolute;
+
+}
+.kuang{
+  width: 100%;
+    height: 100%;
+}
+.xinxi{
+  width: 2.544rem;
+  height:2.544rem;
+  bottom: 10rem;
+  left: 50%;
+  margin-left: -1.2rem;
+}
+.jben{
+  width:6.72rem;
+  height:0.464rem;
+  bottom: 9rem;
+  left: 50%;
+  margin-left: -3.37rem;
+}
+.xxi{
+  width: 4.326rem;
+  height: 4.5rem;
+  bottom: 3rem;
+  left: 50%;
+  margin-left: -2rem;
+}
+/* 第三页 */
+#page3{
+  position:relative;
+  background:rgb(252, 249, 249) center center no-repeat;
+}
+#page3>img{
+  position:absolute;
+
+}
+.kuang{
+width: 100%;
+  height: 100%;
+}
+
+.zuopin{
+width: 2.544rem;
+height:2.544rem;
+bottom: 10rem;
+left: 50%;
+margin-left: -1.2rem;
+}
+.meishu{
+  width:6.72rem;
+  height:0.464rem;
+  bottom: 9.3rem;
+  left: 50%;
+  margin-left: -3.37rem;
+}
+.pinyi{
+  width: 2.88rem;
+    height: 3.84rem;
+    bottom: 0.8rem;
+    left: 0.7rem;
+
+}
+.piner{
+  width: 2.88rem;
+  height: 3.84rem;
+  bottom: 0.8rem;
+  right: 0.7rem;
+}
+.pinsan{
+  width: 2.88rem;
+    height: 3.84rem;
+    bottom: 5rem;
+    left: 0.7rem;
+}
+.pinsi{
+  width: 2.88rem;
+  height: 3.84rem;
+  bottom: 5rem;
+  right: 0.7rem;
+}
+/* 第四页 */
+#page4{
+  position:relative;
+  background:rgb(252, 249, 249) center center no-repeat;
+}
+#page4>img{
+  position:absolute;
+
+}
+.kuang{
+width: 100%;
+  height: 100%;
+}
+
+.zuopin{
+width: 2.544rem;
+height:2.544rem;
+bottom: 10rem;
+left: 50%;
+margin-left: -1.2rem;
+}
+.psai{
+  width:6.72rem;
+  height:0.464rem;
+  bottom: 9.3rem;
+  left: 50%;
+  margin-left: -3.37rem;
+}
+.tuyi{
+  width: 3.368rem;
+    height:2.396rem;
+    bottom: 1.3rem;
+    left: 0.7rem;
+}
+.tuer{
+width: 2.26rem;
+height: 3.685rem;
+bottom: 1.3rem;
+right: 0.7rem;
+}
+.tusan{
+  width: 3.445rem;
+  height: 2.0675rem;
+  bottom: 6rem;
+  right: 0.7rem;
+}
+.tusi{
+  width: 2.3rem;
+  height: 4rem;
+  bottom: 5rem;
+ left: 0.7rem;
+}
+/* 第五页 */
+#page5{
+  position:relative;
+  background:rgb(252, 249, 249) center center no-repeat;
+}
+#page5>img{
+  position:absolute;
+}
+.kuang{
+width: 100%;
+  height: 100%;
+}
+
+.zuopin{
+width: 2.544rem;
+height:2.544rem;
+bottom: 10rem;
+left: 50%;
+margin-left: -1.2rem;
+}
+.pingmian{
+  width:6.72rem;
+  height:0.464rem;
+  bottom: 9.3rem;
+  left: 50%;
+  margin-left: -3.37rem;
+}
+.pingyi{
+  width: 2.631rem;
+  height:3.72075rem;
+  bottom: 5.3rem;
+  left:0.5rem;
+}
+.pinger{
+  width:2.631rem;
+  height:3.72075rem;
+  bottom: 1rem;
+  right: 0.5rem;
+  
+}
+.pingsan{
+  width: 3.72075rem;
+  height: 2.631rem;
+  bottom: 1.5rem;
+  left: 0.5rem;
+}
+.pingsi{
+  width: 3.72075rem;
+  height:2.631rem;
+  bottom: 6rem;
+  right: 0.5rem; 
+}
+/* 第六页 */
+#page6{
+  position:relative;
+  background:rgb(252, 249, 249) center center no-repeat;
+}
+#page6>img{
+  position:absolute;
+}
+.kuang{
+width: 100%;
+  height: 100%;
+}
+
+.zuopin{
+width: 2.544rem;
+height:2.544rem;
+bottom: 10rem;
+left: 50%;
+margin-left: -1.2rem;
+}
+.wangye{
+  width:6.72rem;
+  height:0.464rem;
+  bottom: 9.3rem;
+  left: 50%;
+  margin-left: -3.37rem;
+}
+.wangyi{
+  width:3.525rem;
+  height:2.139rem;
+  bottom: 6rem;
+  right: 0.6rem; 
+}
+.wanger{
+  width: 2.250rem;
+  height:3.564rem;
+  bottom: 5rem;
+  left: 0.6rem; 
+}
+.wangsan{
+  width: 3.417rem;
+  height:2.271rem;
+  bottom: 1.8rem;
+  left:0.6rem;
+}
+.wangsi{
+  width: 2.388rem;
+  height:2.692rem;
+  bottom:1.8rem;
+  right:0.6rem;
+}
+/* 第七页 */
+#page7{
+  position:relative;
+  background:rgb(252, 249, 249) center center no-repeat;
+}
+#page7>img{
+  position:absolute;
+}
+.kuang{
+width: 100%;
+  height: 100%;
+}
+.xiexie{
+  width: 4.24rem;
+  height:4.24rem;
+  bottom:50%;
+  right:50%;
+  margin-right: -2.1rem;
+}
